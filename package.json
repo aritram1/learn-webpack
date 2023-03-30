@@ -1,0 +1,29 @@
+{
+  "name": "learn-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-front-end": "nodemon src/front-end/server/server.js",
+    "start-back-end-api": "nodemon src/back-end/server/api.js",
+    "start-all": "npm run start-back-end && npm run start-front-end",
+    "start": "npm run start-front-end"
+  },
+  "nodemon": {
+    "watch": [
+      "src/"
+    ],
+    "ext": "js, css, html"
+  },
+  "author": "aritram1@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

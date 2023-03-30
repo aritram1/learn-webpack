@@ -1,0 +1,6 @@
+.content{
+    content: "hello from content block!!";
+    color: blue;
+    height: 30%;
+    width: 30%;
+}
